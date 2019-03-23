@@ -1,0 +1,22 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: scm-human-service
+  datasource:
+    url: jdbc:mysql://112.74.162.78:3306/msc
+    username: root
+    password: zx124624
+    driver-class-name: com.mysql.jdbc.Driver
+eureka:
+  client:
+    service-url:
+      defaultZone: http://112.74.162.78:10086/eureka
+  instance:
+    prefer-ip-address: true
+    #ip-address: 172.18.0.3
+logging:
+  level:
+    root: debug
+    com.leyou.scm: debug
+

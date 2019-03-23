@@ -1,0 +1,21 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: upload-service
+  servlet:
+    multipart:
+      max-file-size: 1024MB
+  datasource:
+    url: jdbc:mysql://112.74.162.78:3306/msc
+    username: root
+    password: zx124624
+    driver-class-name: com.mysql.jdbc.Driver
+      
+eureka:
+  client:
+    service-url:
+      defaultZone: http://112.74.162.78:10086/eureka
+    instance:
+      ip-address: 112.74.162.78
+      prefer-ip-address: true

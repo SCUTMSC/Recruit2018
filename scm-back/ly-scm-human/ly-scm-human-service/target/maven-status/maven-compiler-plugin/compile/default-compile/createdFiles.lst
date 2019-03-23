@@ -1,0 +1,7 @@
+com\leyou\scm\web\TeamController.class
+com\leyou\scm\service\TeamMateService.class
+com\leyou\scm\ScmHumanApplication.class
+com\leyou\scm\mapper\TeamMapper.class
+com\leyou\scm\mapper\TeamMateMapper.class
+com\leyou\scm\service\TeamService.class
+com\leyou\scm\web\ScmHumanController.class

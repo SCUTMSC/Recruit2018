@@ -1,0 +1,3 @@
+com\leyou\scm\ScmUploadApplication.class
+com\leyou\scm\upload\service\UploadService.class
+com\leyou\scm\upload\web\UploadController.class
